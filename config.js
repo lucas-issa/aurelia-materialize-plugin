@@ -25,11 +25,11 @@ System.config({
     "core-js": "npm:core-js@0.9.18",
     "css": "github:systemjs/plugin-css@0.1.16",
     "kendo-ui": "github:kendo-labs/bower-kendo-ui@2015.2.813",
-    "materialize": "github:Dogfalo/materialize@0.97.1",
+    "materialize": "github:dogfalo/materialize@0.96.1",
     "telerik/kendo-ui-core": "github:telerik/kendo-ui-core@2015.3.930",
     "traceur": "github:jmcriffey/bower-traceur@0.0.91",
     "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.91",
-    "github:Dogfalo/materialize@0.97.1": {
+    "github:dogfalo/materialize@0.96.1": {
       "css": "github:systemjs/plugin-css@0.1.16",
       "jquery": "github:components/jquery@2.1.4"
     },

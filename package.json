@@ -29,7 +29,7 @@
       "aurelia-logging": "github:aurelia/logging@^0.7.0",
       "aurelia-metadata": "github:aurelia/metadata@^0.8.0",
       "aurelia-templating": "github:aurelia/templating@^0.15.3",
-      "materialize": "github:Dogfalo/materialize@^0.97.0"
+      "materialize": "github:dogfalo/materialize@^0.96.1"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.22",
