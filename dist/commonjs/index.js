@@ -7,7 +7,7 @@ exports.configure = configure;
 
 require('jquery');
 
-require('materialize/css/materialize.css!');
+require('materialize/sass/materialize.css!');
 
 function configure(aurelia) {
 
