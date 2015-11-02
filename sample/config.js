@@ -10,15 +10,17 @@ System.config({
       "es7.classProperties"
     ]
   },
-  "shim": {
-    "materialize":{
-    "deps": ["jquery"]
-    }
-  },
   paths: {
     "*": "src/*",
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
+  },
+  shim: {
+    "materialize": {
+      "deps": [
+        "jquery"
+      ]
+    }
   },
 
   map: {

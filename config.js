@@ -29,10 +29,6 @@ System.config({
     "telerik/kendo-ui-core": "github:telerik/kendo-ui-core@2015.3.930",
     "traceur": "github:jmcriffey/bower-traceur@0.0.91",
     "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.91",
-    "github:dogfalo/materialize@0.96.1": {
-      "css": "github:systemjs/plugin-css@0.1.16",
-      "jquery": "github:components/jquery@2.1.4"
-    },
     "github:aurelia/binding@0.9.1": {
       "aurelia-dependency-injection": "github:aurelia/dependency-injection@0.10.1",
       "aurelia-metadata": "github:aurelia/metadata@0.8.0",
@@ -142,6 +138,10 @@ System.config({
       "aurelia-loader": "github:aurelia/loader@0.9.0",
       "aurelia-loader-default": "github:aurelia/loader-default@0.10.0",
       "aurelia-templating": "github:aurelia/templating@0.15.3"
+    },
+    "github:dogfalo/materialize@0.96.1": {
+      "css": "github:systemjs/plugin-css@0.1.16",
+      "jquery": "github:components/jquery@2.1.4"
     },
     "github:jspm/nodelibs-process@0.1.1": {
       "process": "npm:process@0.10.1"

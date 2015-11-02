@@ -10,6 +10,7 @@ var insert = require('gulp-insert');
 var rename = require('gulp-rename');
 var tools = require('aurelia-tools');
 var del = require('del');
+var sass = require('gulp-sass');
 var vinylPaths = require('vinyl-paths');
 
 var jsName = paths.packageName + '.js';
@@ -64,6 +65,12 @@ gulp.task('build-dts', function(){
       .pipe(gulp.dest(paths.output + 'system'));
 });
 
+gulp.task('build-css', function() {
+  return gulp.src(paths.sample + '/jspm_packages/github/dogfalo/**/*.scss')
+    .pipe(sass.sync().on('error', sass.logError))
+    .pipe(gulp.dest(paths.sample + '/jspm_packages/github/dogfalo')); 
+});
+
 gulp.task('copy-html', function() {
  return gulp.src(paths.html)
   .pipe(gulp.dest(paths.output + 'es6'))
@@ -92,7 +99,7 @@ gulp.task('build', function(callback) {
   return runSequence(
     'clean',
     ['build-es6', 'build-commonjs', 'build-amd', 'build-system'],
-    ['copy-html', 'copy-css'],
+    ['build-css', 'copy-html', 'copy-css'],
     'build-index',
     'build-dts',
     'remove-dts-folder',

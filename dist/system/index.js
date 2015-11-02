@@ -1,4 +1,4 @@
-System.register(['jquery', 'materialize/css/materialize.css!'], function (_export) {
+System.register(['jquery', 'materialize/sass/materialize.css!'], function (_export) {
 	'use strict';
 
 	_export('configure', configure);
@@ -11,7 +11,7 @@ System.register(['jquery', 'materialize/css/materialize.css!'], function (_expor
 	}
 
 	return {
-		setters: [function (_jquery) {}, function (_materializeCssMaterializeCss) {}],
+		setters: [function (_jquery) {}, function (_materializeSassMaterializeCss) {}],
 		execute: function () {}
 	};
 });
