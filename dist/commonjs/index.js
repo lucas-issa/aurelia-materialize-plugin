@@ -5,13 +5,9 @@ Object.defineProperty(exports, '__esModule', {
 });
 exports.configure = configure;
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+require('jquery');
 
-var _jquery = require('jquery');
-
-var _jquery2 = _interopRequireDefault(_jquery);
-
-require('materialize');
+require('materialize/css/materialize.css!');
 
 function configure(aurelia) {
 

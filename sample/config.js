@@ -10,6 +10,11 @@ System.config({
       "es7.classProperties"
     ]
   },
+  "shim": {
+    "materialize":{
+    "deps": ["jquery"]
+    }
+  },
   paths: {
     "*": "src/*",
     "github:*": "jspm_packages/github/*",
@@ -27,12 +32,13 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.20",
     "bootstrap": "github:twbs/bootstrap@3.3.5",
     "core-js": "npm:core-js@1.2.0",
-    "css": "github:systemjs/plugin-css@0.1.17",
+    "css": "github:systemjs/plugin-css@0.1.19",
     "font-awesome": "npm:font-awesome@4.4.0",
     "gooy/aurelia-markdown": "github:gooy/aurelia-markdown@0.0.3",
     "json": "github:systemjs/plugin-json@0.1.0",
     "kendo-ui": "github:kendo-labs/bower-kendo-ui@2015.2.813",
-    "systemjs/plugin-css": "github:systemjs/plugin-css@0.1.17",
+    "materialize": "github:dogfalo/materialize@0.96.1",
+    "systemjs/plugin-css": "github:systemjs/plugin-css@0.1.19",
     "twbs/bootstrap": "github:twbs/bootstrap@3.3.5",
     "github:aurelia/binding@0.9.1": {
       "aurelia-dependency-injection": "github:aurelia/dependency-injection@0.10.1",
@@ -143,6 +149,10 @@ System.config({
       "aurelia-task-queue": "github:aurelia/task-queue@0.7.0",
       "core-js": "npm:core-js@0.9.18"
     },
+    "github:dogfalo/materialize@0.96.1": {
+      "css": "github:systemjs/plugin-css@0.1.19",
+      "jquery": "github:components/jquery@2.1.4"
+    },
     "github:gooy/aurelia-markdown@0.0.3": {
       "prism": "github:PrismJS/prism@master",
       "showdown": "github:showdownjs/showdown@1.3.0"
@@ -170,7 +180,7 @@ System.config({
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
     "npm:font-awesome@4.4.0": {
-      "css": "github:systemjs/plugin-css@0.1.17"
+      "css": "github:systemjs/plugin-css@0.1.19"
     }
   }
 });

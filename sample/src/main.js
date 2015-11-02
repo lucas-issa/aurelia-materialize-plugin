@@ -6,8 +6,8 @@ export function configure(aurelia) {
         .developmentLogging();
         
 
+    aurelia.use.plugin("aurelia-materialize-plugin");
 
     aurelia.use.globalResources('shared/collapse-panel');
-
     aurelia.start().then(a => a.setRoot('app'));
 }
