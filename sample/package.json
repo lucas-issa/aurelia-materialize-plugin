@@ -10,7 +10,6 @@
       "font-awesome": "npm:font-awesome@^4.4.0",
       "gooy/aurelia-markdown": "github:gooy/aurelia-markdown@^0.0.3",
       "json": "github:systemjs/plugin-json@^0.1.0",
-      "kendo-ui": "github:kendo-labs/bower-kendo-ui@2015.2.813",
       "materialize": "github:dogfalo/materialize@0.96.1",
       "systemjs/plugin-css": "github:systemjs/plugin-css@^0.1.17",
       "twbs/bootstrap": "github:twbs/bootstrap@3.3.5"
