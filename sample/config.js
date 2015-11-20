@@ -26,8 +26,10 @@ System.config({
   map: {
     "aurelia-binding": "github:aurelia/binding@0.9.1",
     "aurelia-bootstrapper": "github:aurelia/bootstrapper@0.17.0",
+    "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.0.0-beta.1",
     "aurelia-framework": "github:aurelia/framework@0.16.0",
     "aurelia-http-client": "github:aurelia/http-client@0.11.0",
+    "aurelia-logging": "npm:aurelia-logging@1.0.0-beta.1",
     "aurelia-metadata": "github:aurelia/metadata@0.8.0",
     "aurelia-templating": "github:aurelia/templating@0.15.3",
     "babel": "npm:babel-core@5.8.23",
@@ -40,6 +42,8 @@ System.config({
     "json": "github:systemjs/plugin-json@0.1.0",
     "kendo-ui": "github:kendo-labs/bower-kendo-ui@2015.2.813",
     "materialize": "github:dogfalo/materialize@0.96.1",
+    "showdown": "github:showdownjs/showdown@1.3.0",
+    "showdownjs/showdown": "github:showdownjs/showdown@1.3.0",
     "systemjs/plugin-css": "github:systemjs/plugin-css@0.1.19",
     "twbs/bootstrap": "github:twbs/bootstrap@3.3.5",
     "github:aurelia/binding@0.9.1": {
@@ -159,6 +163,9 @@ System.config({
       "prism": "github:PrismJS/prism@master",
       "showdown": "github:showdownjs/showdown@1.3.0"
     },
+    "github:jspm/nodelibs-path@0.1.0": {
+      "path-browserify": "npm:path-browserify@0.0.0"
+    },
     "github:jspm/nodelibs-process@0.1.1": {
       "process": "npm:process@0.10.1"
     },
@@ -167,6 +174,16 @@ System.config({
     },
     "github:twbs/bootstrap@3.3.5": {
       "jquery": "github:components/jquery@2.1.4"
+    },
+    "npm:aurelia-dependency-injection@1.0.0-beta.1": {
+      "aurelia-logging": "npm:aurelia-logging@1.0.0-beta.1",
+      "aurelia-metadata": "npm:aurelia-metadata@1.0.0-beta.1",
+      "aurelia-pal": "npm:aurelia-pal@1.0.0-beta.1",
+      "core-js": "npm:core-js@1.2.6"
+    },
+    "npm:aurelia-metadata@1.0.0-beta.1": {
+      "aurelia-pal": "npm:aurelia-pal@1.0.0-beta.1",
+      "core-js": "npm:core-js@1.2.6"
     },
     "npm:babel-runtime@5.8.20": {
       "process": "github:jspm/nodelibs-process@0.1.1"
@@ -181,8 +198,17 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.1",
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
+    "npm:core-js@1.2.6": {
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
+      "path": "github:jspm/nodelibs-path@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.1",
+      "systemjs-json": "github:systemjs/plugin-json@0.1.0"
+    },
     "npm:font-awesome@4.4.0": {
       "css": "github:systemjs/plugin-css@0.1.19"
+    },
+    "npm:path-browserify@0.0.0": {
+      "process": "github:jspm/nodelibs-process@0.1.1"
     }
   }
 });
