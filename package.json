@@ -9,11 +9,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/aurelia-ui-toolkits/aurelia-materialize-plugin"
+    "url": "git://github.com/lucas-issa/aurelia-materialize-plugin"
   },
-  "homepage": "https://github.com/aurelia-ui-toolkits/aurelia-materialize-plugin",
+  "homepage": "https://github.com/lucas-issa/aurelia-materialize-plugin",
   "bugs": {
-    "url": "https://github.com/aurelia-ui-toolkits/aurelia-materialize-plugin/issues"
+    "url": "https://github.com/lucas-issa/aurelia-materialize-plugin/issues"
   },
   "license": "MIT",
   "author": "Manuel Guilbault <manuel.guilbault@gmail.com> (https://github.com/manuel-guilbault/)",
