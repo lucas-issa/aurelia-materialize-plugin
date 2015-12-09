@@ -26,12 +26,12 @@ System.config({
     "core-js": "npm:core-js@1.2.6",
     "hammer": "github:hammerjs/hammer.js@2.0.4",
     "jquery.hammer": "github:hammerjs/jquery.hammer.js@2.0.0",
-    "materialize": "github:Dogfalo/materialize@0.97.3",
+    "materialize": "github:Dogfalo/materialize@0.96.1",
     "showdown": "github:showdownjs/showdown@1.3.0",
     "traceur": "github:jmcriffey/bower-traceur@0.0.91",
     "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.91",
     "velocity": "github:julianshapiro/velocity@1.2.3",
-    "github:Dogfalo/materialize@0.97.3": {
+    "github:Dogfalo/materialize@0.96.1": {
       "css": "github:systemjs/plugin-css@0.1.20",
       "jquery": "github:components/jquery@2.1.4"
     },
