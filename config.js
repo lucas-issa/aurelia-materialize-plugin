@@ -24,12 +24,19 @@ System.config({
     "babel": "npm:babel-core@5.8.34",
     "babel-runtime": "npm:babel-runtime@5.8.34",
     "core-js": "npm:core-js@1.2.6",
+    "hammer": "github:hammerjs/hammer.js@2.0.4",
+    "jquery.hammer": "github:hammerjs/jquery.hammer.js@2.0.0",
     "materialize": "github:dogfalo/materialize@0.96.1",
     "showdown": "github:showdownjs/showdown@1.3.0",
     "traceur": "github:jmcriffey/bower-traceur@0.0.91",
     "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.91",
+    "velocity": "github:julianshapiro/velocity@1.2.3",
     "github:dogfalo/materialize@0.96.1": {
       "css": "github:systemjs/plugin-css@0.1.19",
+      "jquery": "github:components/jquery@2.1.4"
+    },
+    "github:hammerjs/jquery.hammer.js@2.0.0": {
+      "hammerjs": "github:hammerjs/hammer.js@2.0.4",
       "jquery": "github:components/jquery@2.1.4"
     },
     "github:jspm/nodelibs-assert@0.1.0": {
