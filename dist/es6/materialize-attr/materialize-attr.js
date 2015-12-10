@@ -49,7 +49,9 @@ export class MaterializeAttr {
         break;
 
       case 'sidenav':
-        setTimeout(() => $(this.element).sideNav(), 10);
+        setTimeout(() => $(this.element).sideNav({
+          closeOnClick: true
+        }), 10);
         break;
 
       case 'label':

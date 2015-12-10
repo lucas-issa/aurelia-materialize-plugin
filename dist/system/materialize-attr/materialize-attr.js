@@ -62,7 +62,9 @@ System.register(['aurelia-framework', 'aurelia-task-queue'], function (_export) 
 
               case 'sidenav':
                 setTimeout(function () {
-                  return $(_this.element).sideNav();
+                  return $(_this.element).sideNav({
+                    closeOnClick: true
+                  });
                 }, 10);
                 break;
 

@@ -56,7 +56,9 @@ define(['exports', 'aurelia-framework', 'aurelia-task-queue'], function (exports
 
           case 'sidenav':
             setTimeout(function () {
-              return $(_this.element).sideNav();
+              return $(_this.element).sideNav({
+                closeOnClick: true
+              });
             }, 10);
             break;
 
